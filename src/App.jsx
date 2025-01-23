@@ -4,6 +4,7 @@ import { MenubarDemo } from './Navbar/MenubarDemo'
 import { DrawerDemo } from './components/DrawerDemo'
 import { TableDemo } from './components/TableDemo'
 import { Separator } from "@/components/ui/separator"
+import { Component } from './components/Component'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   
 
       <MenubarDemo  />
-    <div className='justify-cente place-items-center h-screen  w-screen  container p-11'>
+    <div className='justify-center  place-items-center h-screen  w-screen  container p-11'>
     
       <Separator />
       <TableDemo />
@@ -22,6 +23,7 @@ function App() {
       
     < DrawerDemo  />
     </div>
+    <Component/>
     </>)
 }
 

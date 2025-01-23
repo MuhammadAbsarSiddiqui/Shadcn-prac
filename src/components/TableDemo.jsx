@@ -56,8 +56,10 @@ import {
   
   export function TableDemo() {
     return (
+      
       <Table>
-        <TableCaption>A list of your recent invoices.</TableCaption>
+        
+        <TableCaption><h4><strong>PAYMENT DETAILS</strong></h4></TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead className="w-[100px]">Invoice</TableHead>

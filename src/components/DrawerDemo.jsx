@@ -72,10 +72,22 @@ const data = [
     goal: 34,
   },
   {
-    goal: 0,
+    goal: 10,
   },
   {
-    goal: 9,
+    goal: 12,
+  },
+  {
+    goal: 90,
+  },
+  {
+    goal: 20,
+  },
+  {
+    goal: 129,
+  },
+  {
+    goal: 129,
   },
 ]
 
